@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"github.com/Saurabhkanawade/eagle-common-service/logwriter"
+)
 
 func main() {
-	fmt.Println("Welcome to the eagle-common-service.....")
+	logger := logwriter.NewLoggers()
+
+	logger.Info("Welcome to the eagle-common-service.....")
 }
