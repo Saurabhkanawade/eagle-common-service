@@ -6,6 +6,5 @@ import (
 
 func main() {
 	logger := logwriter.NewLoggers()
-
 	logger.Info("Welcome to the eagle-common-service.....")
 }
